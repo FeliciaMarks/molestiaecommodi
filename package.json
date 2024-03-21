@@ -1,0 +1,45 @@
+{
+  "name": "molestiaecommodi",
+  "version": "1.0.0",
+  "description": "Fake IndexedDB: a pure JS in-memory implementation of the IndexedDB API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FeliciaMarks/molestiaecommodi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FeliciaMarks/molestiaecommodi.git/issues"
+  },
+  "keywords": [
+    "et",
+    "ut",
+    "database",
+    "embedded",
+    "at",
+    "unde",
+    "polyfill",
+    "aut"
+  ],
+  "main": "build/index.js",
+  "author": "BradRodriguez",
+  "license": "Apache-2.0",
+  "files": [
+    "build",
+    "lib"
+  ],
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "realistic-structured-clone": "^2.0.1",
+    "setimmediate": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^9.4.6",
+    "browserify": "^16.1.0",
+    "mocha": "^5.0.1",
+    "node-qunit-phantomjs": "^1.5.0",
+    "qunitjs": "^1.23.1",
+    "semver": "^5.3.0",
+    "tslint": "^5.1.0",
+    "typescript": "^2.3.1"
+  }
+}
